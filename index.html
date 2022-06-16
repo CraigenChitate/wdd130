@@ -1,31 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>WDD130 Home Page</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Brygada+1918&family=Cabin:ital,wght@1,600&family=Cherry+Cream+Soda&family=Source+Serif+Pro&display=swap');
+        </style>
+    <title>Home</title>
 </head>
-
 <body>
-  <h1>Welcome to WDD130 Web Projects</h1>
-  <nav>
-    <a href="wwr/index.html">White Water Rafting Website</a>
-    <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-    <a href="positioning.html">Positioning Activity</a>
-    <a href="#">Personal Website</a>
-    <a href="#">Personal Siteplan</a>
-    <a href="aboutme/index.html">About Me Page</a>
-    <a href="wwr/index.html">White Water Rafting Website</a>
-    <a href="wwr/site-plan-rafting.html">White Water Rafting Siteplan</a>
-    <a href="positioning.html">Positioning Activity</a>
-    <a href="#">Personal Website</a>
-    <a href="#">Personal Siteplan</a>
-  </nav>
-  <p>Craigen Chitate - WDD130</p>
-
-
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="wwr/images/logo.png" alt="Dry Oar Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#">FAQs</a>
+                <a href="site-plan-rafting.html">Site Plan</a>
+                <a href="contactus.html">Contact Us</a>
+            </nav>
+         </header>
+            <div id="hero">
+                <div id="hero-box">
+                    <img id="hero-img" src="wwr/images/hero.png" alt="People enjoying rafting">        
+                </div>
+                <section id="hero-msg">
+                    <h1 class="home-title">Have An Adventure</h1>
+                    <h4>Make Memories With Dry Oar</h4>
+                    <div class="button-box">
+                        <a class="book" href="rates.html">Book Now</a>
+                    </div>
+                </section>
+            </div>
+    </div>
+    <main class="home-grid">
+        <section class="rivers-card">
+            <img class="card-img" src="wwr/images/rivers.jpg" alt="river in forest">
+            <img class="icon" src="wwr/images/river_icon.png" alt="river icon">
+            <h2>Rivers</h2>
+        </section>
+        <section class="camping-card">
+            <img class="card-img" src="wwr/images/camping.jpg" alt="tent in mountains">
+            <img class="icon" src="wwr/images/fire_icon.png" alt="fire icon">
+            <h2>Camping</h2>
+        </section>
+        <section class="rapids-card">
+            <img class="card-img" src="wwr/images/rapids.jpg" alt="rafting boat">
+            <img class="icon" src="wwr/images/oars.png" alt="oars icon">
+            <h2>Rapids</h2>
+        </section>
+        <div id="background"></div>  
+        <img class="mountains" src="wwr/images/mountains.jpg" alt="Misty mountains">
+        <section class="msg">
+            <h2>More Than Just The Thrill</h2>
+            <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors.</p>
+            <a class="join" href="rivers.html">Join Us</a>
+        </section>
+    </main>
+    <footer>
+        <h3>Dry Oar &copy; 2022 - Craigen Chitate</h3>
+        <h3><a href="site-plan-rafting.html" class="footer-links">Site Plan</a></h3>
+        <h3><a href="contact-us.html" class="footer-links">Contact Us</a></h3>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="wwr/images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="wwr/images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="wwr/images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
 </body>
-
 </html>
