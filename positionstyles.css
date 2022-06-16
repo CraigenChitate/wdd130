@@ -101,7 +101,7 @@
 .red3 {
   width: 800px;
   height: 200px;
-  background-color: red;
+  background-color: rgb(0, 13, 255);
 
   grid-column: 1 /5;
   grid-row: 1/2;
